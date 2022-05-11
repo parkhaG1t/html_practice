@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>cafe</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;1,100&family=Oleo+Script&display=swap" rel="stylesheet">
+        <style>
+            body {
+                background-color: rgba(0, 0, 0, 0.3);
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                width: 940px;
+            }
+            header > .title {
+                margin-bottom: 10px;
+                margin-left: 25px;
+                padding-top: 20px;
+                font-family: 'Oleo Script', cursive;
+                font-size: 40px;
+            }
+            header > .coffeeinfo {
+                margin-left: 25px;
+                font-family: 'Barlow', sans-serif;
+                font-size: 12px;
+            }
+            .content {
+                background-color: white;
+                height: 1300px;
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header {
+                height: 150px;
+                width: 100%;
+            }
+            .hero {
+                width: 100%;
+                height: 400px;
+                background-image: url("photos/heroimage.jpg");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                position: relative;
+            }
+            .hero > .slogan {
+                font-family: 'Barlow', sans-serif;
+                font-style: italic;
+                font-size: 20px;
+                color: white;
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+            }
+            .gallery {
+                width: 100%;
+                height: 600px;
+            }
+            .gallery > .drinks {
+                font-family: 'Oleo Script', cursive;
+                font-size: 30px;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 40px;
+                margin: 0px;
+            }
+            .gallery > .images {
+                margin-left: auto;
+                margin-right: auto;
+                width: 90%;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                grid-gap: 0px;
+            }
+            .gallery img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                opacity: 0.7;
+            }
+            footer {
+                position: relative;
+                width: 100%;
+                height: 150px;
+                background-color: rgb(75, 0, 0);
+            }
+            footer > .foot {
+                position: absolute;
+                width: 235px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Barlow', sans-serif;
+                font-size: 15px;
+            }
+            .foot > p {
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <header>
+                <p class="title">Green Bottle Coffee</p>
+                <p class="coffeeinfo">All of our coffees are customized blends crafted over the last 25 years. <br>
+                These blends range from two to as many as seven different beans from around the world. We hope you love them as much as we do!</p>
+            </header>
+            <div class="hero">
+                <p class="slogan">Cheer Up! Drink Some Coffee Immediately</p>
+            </div>
+            <div class="gallery">
+                <p class="drinks">Our Drinks</p>
+                <div class="images">
+                    <div class="img"><img src="photos/drink01.jpeg"></div>
+                    <div class="img"><img src="photos/drink02.jpeg"></div>
+                    <div class="img"><img src="photos/drink03.jpeg"></div>
+                    <div class="img"><img src="photos/drink04.jpeg"></div>
+                    <div class="img"><img src="photos/drink05.jpeg"></div>
+                    <div class="img"><img src="photos/drink06.jpeg"></div>
+                    <div class="img"><img src="photos/drink07.jpeg"></div>
+                    <div class="img"><img src="photos/drink08.jpeg"></div>
+                    <div class="img"><img src="photos/drink09.jpeg"></div>
+                    <div class="img"><img src="photos/drink10.jpeg"></div>
+                    <div class="img"><img src="photos/drink11.jpeg"></div>
+                    <div class="img"><img src="photos/drink12.jpeg"></div>
+                </div>
+            </div>
+            <footer>
+                <div class="foot">
+                    <P>SUBSCRIBE TO OUR NEWSLETTER<br>FOR THE LATEST FROM PHILZ!</P>
+                    <input type="email" placeholder="Enter your email..." style="font-family: 'Barlow', sans-serif; width: 230px;">
+                    <button type="submit" style="font-family: 'Barlow', sans-serif; background-color: green; border-style:none; color: white; position: absolute;top: 68px; left: 150px">SIGN ME UP</button>
+                </div>
+            </footer>
+        </div>
+
+
+    </body>
+</html>
